@@ -1,0 +1,11 @@
+.message-container {
+  position: absolute;
+  top: 0.5rem;
+  padding: 5px 30px;
+  border-radius: 5px;
+  transition: 1.5s ease;
+}
+
+.fade {
+  opacity: 0;
+}

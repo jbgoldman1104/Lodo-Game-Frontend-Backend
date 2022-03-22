@@ -1,0 +1,42 @@
+.dice-container {
+  background: rgb(36, 33, 33);
+  padding: 18px 0;
+  border-radius: 5px;
+  margin: 1px;
+  width: 7rem;
+  perspective: 700px;
+}
+.dice-container p {
+  color: white;
+  text-align: center;
+  margin: 5px 0;
+}
+.dice {
+  padding: 4px;
+  box-sizing: border-box;
+  background: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  margin: auto;
+  transform-style: preserve-3d;
+}
+.dice-dot {
+  height: 13px;
+  width: 13px;
+  background: black;
+  border-radius: 50%;
+}
+@media screen and (max-width: 750px) {
+  .dice-container p {
+    font-size: small;
+  }
+  .dice {
+    padding: 1px;
+  }
+}

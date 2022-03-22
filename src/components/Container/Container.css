@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: royalblue;
+}
+.gamePad {
+  height: 95vh;
+  width: 95vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 770px) {
+  .gamePad {
+    height: 85vh;
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gamePad {
+    height: 75vh;
+    width: 98vw;
+  }
+}

@@ -1,0 +1,17 @@
+.token {
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 5px white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.token:disabled {
+  border-color: grey;
+}
+.final-home .token {
+  height: 13px;
+  width: 13px;
+  border: none;
+}

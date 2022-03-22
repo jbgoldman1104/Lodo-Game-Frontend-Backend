@@ -1,0 +1,39 @@
+.home {
+  grid-row: 7 / span 3;
+  grid-column: 7 / span 3;
+  position: relative;
+}
+.home-inner {
+  width: 0;
+  height: 0%;
+  border-style: solid;
+  border-color: green yellow blue red;
+}
+.final-home {
+  height: 60%;
+  width: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent !important;
+}
+.final-home.red {
+  margin-top: 24px;
+  margin-left: 4px;
+}
+.final-home.green {
+  transform: rotate(90deg);
+  top: -20px;
+  left: 50px;
+}
+.final-home.yellow {
+  right: 0;
+  margin-top: 23px;
+  margin-right: 4px;
+}
+.final-home.blue {
+  transform: rotate(90deg);
+  bottom: -21px;
+  left: 49px;
+}

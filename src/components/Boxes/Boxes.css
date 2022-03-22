@@ -1,0 +1,12 @@
+.boxes {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 3px;
+  max-height: 40px;
+  max-width: 40px;
+  overflow-x: auto;
+}

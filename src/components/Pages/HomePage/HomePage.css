@@ -1,0 +1,21 @@
+.home-page h2 {
+  color: var(--text-color);
+}
+.home-page {
+  background-color: var(--primary);
+  padding: 0.5rem 2rem;
+}
+.home-page form {
+  display: flex;
+  flex-direction: column;
+}
+input:focus {
+  outline: none;
+}
+.home-page input {
+  margin-bottom: 0.5rem;
+}
+.home-page input,
+button {
+  padding: 5px 2px;
+}

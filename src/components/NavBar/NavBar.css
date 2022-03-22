@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 2rem;
+  background-color: var(--primary);
+}
+nav .logo {
+  font-size: x-large;
+  font-weight: 600;
+}
+.links {
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+ul a:hover {
+  background-color: var(--secondary);
+  color: var(--text-color);
+}
+.content {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

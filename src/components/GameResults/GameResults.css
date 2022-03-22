@@ -1,0 +1,25 @@
+.game-results-container {
+  height: 95vh;
+  width: 95vh;
+  position: absolute;
+  background-color: white;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.game-results {
+  width: 30%;
+}
+.game-results h3 {
+  text-align: center;
+  border-bottom: 2px solid slategray;
+}
+.winner {
+  display: flex;
+  justify-content: space-between;
+}
+.winner span {
+  font-size: large;
+}

@@ -1,0 +1,30 @@
+.room-container {
+  background-color: var(--primary);
+  padding: 0.5rem 2rem;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+}
+.room-container h3 {
+  text-align: center;
+  margin: 0;
+}
+
+table td,
+table th {
+  padding: 5px 15px;
+  border: 1px solid black;
+}
+.color-sample {
+  margin: auto;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+}
+select {
+  margin-top: 8px;
+  padding: 5px 0;
+}
+select:focus {
+  outline: none;
+}

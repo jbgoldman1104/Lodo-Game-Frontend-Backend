@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+:root {
+  --text-color: rgb(51, 47, 47);
+  --primary: #f2f2f2;
+  --secondary: #ffffff;
+}
+
+@media screen and (max-width: 770px) {
+  #root {
+    flex-direction: column;
+  }
+}
+.red,
+.boxes.star.red {
+  background: red;
+}
+.green,
+.boxes.star.green {
+  background: green;
+}
+.yellow,
+.boxes.star.yellow {
+  background: yellow;
+}
+.blue,
+.boxes.star.blue {
+  background: blue;
+}
+.token.red {
+  background: rgb(224, 34, 34);
+}
+.token.green {
+  background: rgb(32, 173, 32);
+}
+.token.yellow {
+  background: rgb(192, 192, 48);
+}
+.token.blue {
+  background: rgb(72, 72, 184);
+}
+.boxes.star {
+  background: url("./assets/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.initial-token-container {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.boxes .token {
+  height: 80%;
+  width: 80%;
+  flex: 1 1 0px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.animate {
+  animation: rotate 0.2s ease;
+}
+@keyframes rotate {
+  to {
+    transform: rotate3d(0, 1, 0, 1080deg);
+  }
+}
+.error {
+  color: red;
+  text-align: center;
+}
